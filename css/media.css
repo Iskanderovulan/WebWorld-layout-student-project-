@@ -1,0 +1,210 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        max-width: 816px;
+    }
+    .prev-slide, .next-slide{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+    h1{
+        padding:0 20px;
+    }
+    .bg__paragraph{
+        padding:0 20px;
+    }
+    /*FORBUREGER*/ /*FORBUREGER*/
+    .mobile-btn {
+        display: block;
+        z-index: 12;
+    }
+    .show-mobile-btn span{
+        background: transparent;   /*hides middle line*/
+
+    }
+    .show-mobile-btn span:before,
+    .show-mobile-btn span:after{
+        top:0;
+        bottom: 0;
+        margin: auto;
+
+    }
+    .show-mobile-btn span:before{
+        transform: rotate(45deg);
+    }
+    .show-mobile-btn span:after{
+        transform: rotate(-45deg);
+    }
+   .navigation{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background: whitesmoke;
+        height: 100%;
+        width: 100%;
+        top:0;
+        right:-100%;
+        z-index: 11;
+        transition: .5s;
+    }
+    .show-menu{
+        right: 0;
+    }
+    .navigation__item {
+        font-size:30px;
+        margin-bottom:20px;
+    }
+}
+/*FORBUREGER*/ /*FORBUREGER*/
+
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 576px;
+    }
+    .col-3{
+        width: 50%;
+    }
+    .col-4{
+        width:50%;
+    }
+    .box-wrap-center{
+        margin-top:0;
+    }
+    .box-wrap{
+        margin-bottom:100px;
+    }
+    .team-title-text{
+        line-height: 1.5;
+    }
+    .shop-logo__list{
+        display: inline-block;
+        text-align: center;
+        padding-inline-start: 0;
+    }
+    .shop-logo__items{
+        display: inline;
+    }
+    .box-tags{
+        margin-bottom:30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 356px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .col-3{
+        width: 100%;
+    }
+    .col-4{
+        width:100%;
+    }
+    .box-wrap-center{
+        margin-bottom:100px;
+    }
+    .box-wrap {
+        margin-bottom:100px;
+    }
+    .box-wrap-2{
+        margin-bottom:50px;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .menu__item{
+        display:inline;
+    }
+    .footer__logo{
+        font-size:14px;
+    }
+
+    .shop-logo__list{
+        display: block;
+        text-align: center;
+
+    }
+    .shop-logo__items{
+        display: block;
+        margin-bottom:30px;
+        /*display: block;*/
+    }
+    h1{
+        font-size:30px;
+    }
+    .team-title-text{
+        font-size:25px;
+    }
+    .tags__title{
+        text-align: center;
+    }
+    .tags__text{
+        text-align: center;
+    }
+    .tags__date{
+        text-align: center;
+    }
+    .tags__line:before {
+     width: 80%;
+    }
+    .footer{
+        height: 100px;
+    }
+    .footer__nav{
+        text-align: center;
+        display: block;
+    }
+    .footer__logo{
+        display: block;
+        padding:20px;
+    }
+    .footer__item{
+        margin:0;
+    }
+}
+
+@media (max-width: 320px) {
+
+header{
+    height: 100px;
+}
+    nav{
+        display: block;
+        text-align: center;
+    }
+    .menu__item-first{
+        margin-left:0;
+    }
+    .header__logo{
+        display: block;
+        padding:20px;
+    }
+    .navigation__item-dot>img{
+        width: 25px;
+        height: 25px;
+    }
+    .input-1{
+        padding:10px 5px 10px 5px;
+    }
+    .box-wrap-2{
+        height: 300px;
+    }
+
+}
